@@ -13,10 +13,10 @@ $html = '
 </html>
 ';
 
-// Save the generated HTML to an HTML file
+// Save the generated HTML to an HTML file called generated.html
 $file = 'generated.html';
 file_put_contents($file, $html);
 
-// Print a message indicating that the HTML file has been generated
+// Print a message that the HTML file has been generated
 echo "HTML file '$file' has been generated.\n";
 ?>
